@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Rubik:700');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+</style>
+</head>
+<body>
+  <h1>Table Finder</h1>
+  <h3>Pick your table now</h3>
+  <div id="layout">
+    <div class="rows">
+      <div class="available" id="table1" data-table="table number 1" >
+        <p class="tag" id="tableTag1">1</p>
+      </div>
+      <div class="available" id="table2" data-table="table number 2" >
+        <p class="tag"id="tableTag2">2</p>
+      </div>
+      <div class="available" id="table3" data-table="table number 3" >
+        <p class="tag" id="tableTag3">3</p>
+      </div>
+    </div>
+    <div class="rows">
+      <div class="available" id="table4" data-table="table number 4" >
+        <p class="tag" id="tableTag4">4</p>
+      </div>
+      <div class="available" id="table5" data-table="table number 5" >
+        <p class="tag" id="tableTag5">5</p>
+      </div>
+      <div class="available" id="table6" data-table="table number 6">
+        <p class="tag" id="tableTag6">6</p>
+      </div>
+    </div>
+    <div class="rows">
+      <div class="available" id="table7" data-table="table number 7">
+        <p class="tag" id="tableTag7">7</p>
+      </div>
+      <div class="available" id="table8" data-table="table number 8">
+        <p class="tag" id="tableTag8">8</p>
+      </div>
+      <div class="available" id="table9" data-table="table number 9" >
+        <p class="tag" id="tableTag9">9</p>
+      </div>
+    </div>
+  </div>
+  <div id="hide">
+    <form>
+      <div id="cancel">X</div>
+      <h2>New Reservation</h2>
+      <p id="tableNum">Table Number: </p>
+      <input id="nameIn" type="text" placeholder="Name"/>
+      <input id="phone" type="text" placeholder="Number"/> <!-- number? or text? -->
+      <input id="partySize" type="text" placeholder="Party Size"/>
+      <button id="save" type="button">SAVE</button>
+    </form>
+  </div>
+  <script src="jquery-3.3.1.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
